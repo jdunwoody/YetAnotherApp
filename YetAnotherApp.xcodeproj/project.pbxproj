@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		74610BD59A4D0B790DC87DA4 /* libPods-YetAnotherAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FD03730B6E5899707ACF36 /* libPods-YetAnotherAppTests.a */; };
 		867E1DDBC88C3D5A3B4354FA /* libPods-Acceptance Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5747355E1AB452006553D7 /* libPods-Acceptance Tests.a */; };
-		914CB432819F5EFC10951C01 /* YetAnotherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 914CBF9392C9704D84E0E754 /* YetAnotherAppTests.m */; };
 		914CB4E0A93276626141F0A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 914CB6D6000B4E6BFF8F9759 /* main.m */; };
 		914CB51FFAF49553FD06CA8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914CB2078B794FCCF71491B8 /* Main.storyboard */; };
 		914CB561C98014BC36A1228A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914CB9802BBA175BD60D9792 /* Images.xcassets */; };
@@ -17,8 +16,8 @@
 		914CBCB019020ECF434C9DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 914CB975A8E51964FF790635 /* AppDelegate.m */; };
 		914CBFACDBA26E581A07FD64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 914CB4D826771EFD2CE05A98 /* LaunchScreen.xib */; };
 		914CBFD199204AE7607DC5C2 /* YetAnotherApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 914CB86478DC506538D830F6 /* YetAnotherApp.xcdatamodeld */; };
-		9E3B4CBC1AE615510083D2D6 /* YAAFirstAcceptanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B4CBB1AE615510083D2D6 /* YAAFirstAcceptanceTest.m */; };
-		9E8C69651AE6169400D91323 /* Acceptance_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C69641AE6169400D91323 /* Acceptance_Tests.m */; };
+		9E8C69711AE61AE800D91323 /* YetAnotherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C696F1AE61AE800D91323 /* YetAnotherAppTests.m */; };
+		9E8C69721AE61B7200D91323 /* YAAFirstAcceptanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C696D1AE61AE800D91323 /* YAAFirstAcceptanceTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +54,10 @@
 		914CBD3F4FD1B82139804088 /* YetAnotherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YetAnotherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		914CBDE837605CA767901941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		914CBE2CBD308552802FDF3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		914CBF9392C9704D84E0E754 /* YetAnotherAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YetAnotherAppTests.m; sourceTree = "<group>"; };
-		9E3B4CBB1AE615510083D2D6 /* YAAFirstAcceptanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAAFirstAcceptanceTest.m; sourceTree = "<group>"; };
 		9E8C69601AE6169400D91323 /* Acceptance Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acceptance Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8C69631AE6169400D91323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E8C69641AE6169400D91323 /* Acceptance_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Acceptance_Tests.m; sourceTree = "<group>"; };
+		9E8C696D1AE61AE800D91323 /* YAAFirstAcceptanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAAFirstAcceptanceTest.m; sourceTree = "<group>"; };
+		9E8C696F1AE61AE800D91323 /* YetAnotherAppTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YetAnotherAppTests.m; sourceTree = "<group>"; };
 		AA38F616F394D459620F41C2 /* Pods-Acceptance Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B5FD03730B6E5899707ACF36 /* libPods-YetAnotherAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YetAnotherAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5747355E1AB452006553D7 /* libPods-Acceptance Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Acceptance Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,9 +136,9 @@
 		914CB41234ADEF61C2907FC4 /* YetAnotherAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				9E3B4CBA1AE615510083D2D6 /* AcceptanceTests */,
+				9E8C696C1AE61AE800D91323 /* AcceptanceTests */,
+				9E8C696E1AE61AE800D91323 /* UnitTests */,
 				914CB1DF970A06AD7F7BFA0C /* Supporting Files */,
-				914CBF9392C9704D84E0E754 /* YetAnotherAppTests.m */,
 			);
 			path = YetAnotherAppTests;
 			sourceTree = "<group>";
@@ -177,18 +175,9 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9E3B4CBA1AE615510083D2D6 /* AcceptanceTests */ = {
-			isa = PBXGroup;
-			children = (
-				9E3B4CBB1AE615510083D2D6 /* YAAFirstAcceptanceTest.m */,
-			);
-			path = AcceptanceTests;
-			sourceTree = "<group>";
-		};
 		9E8C69611AE6169400D91323 /* Acceptance Tests */ = {
 			isa = PBXGroup;
 			children = (
-				9E8C69641AE6169400D91323 /* Acceptance_Tests.m */,
 				9E8C69621AE6169400D91323 /* Supporting Files */,
 			);
 			path = "Acceptance Tests";
@@ -200,6 +189,22 @@
 				9E8C69631AE6169400D91323 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E8C696C1AE61AE800D91323 /* AcceptanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E8C696D1AE61AE800D91323 /* YAAFirstAcceptanceTest.m */,
+			);
+			path = AcceptanceTests;
+			sourceTree = "<group>";
+		};
+		9E8C696E1AE61AE800D91323 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E8C696F1AE61AE800D91323 /* YetAnotherAppTests.m */,
+			);
+			path = UnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,8 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				914CB432819F5EFC10951C01 /* YetAnotherAppTests.m in Sources */,
-				9E3B4CBC1AE615510083D2D6 /* YAAFirstAcceptanceTest.m in Sources */,
+				9E8C69711AE61AE800D91323 /* YetAnotherAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E8C69651AE6169400D91323 /* Acceptance_Tests.m in Sources */,
+				9E8C69721AE61B7200D91323 /* YAAFirstAcceptanceTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
