@@ -14,3 +14,8 @@ target 'YetAnotherAppTests' do
   pod 'LRMocky',     '~> 0.9'
 end
 
+target 'Acceptance Tests', :exclusive => true do
+  pod 'KIF', '~> 3.0', :configurations => ['Debug']
+  pod 'Specta', '~> 0.5'
+  pod 'Expecta',     '~> 0.3'
+end

@@ -18,8 +18,8 @@ DerivedData
 *.xcuserstate
 *.swp
 
-.ideal/workspace.xml
-.ideal/tasks.xml
+.idea/workspace.xml
+.idea/tasks.xml
 
 # CocoaPods
 #
