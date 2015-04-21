@@ -16,6 +16,10 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+*.swp
+
+.ideal/workspace.xml
+.ideal/tasks.xml
 
 # CocoaPods
 #
