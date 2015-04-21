@@ -4,12 +4,14 @@
    <BuildAction>
       <BuildActionEntries>
          <BuildActionEntry
-            buildForRunning = "YES">
+            buildForRunning = "YES"
+            buildForTesting = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BuildableName = "Acceptance Tests"
+               BuildableName = "Acceptance Tests.xctest"
                BlueprintName = "Acceptance Tests"
-               ReferencedContainer = "container:YetAnotherApp.xcodeproj">
+               ReferencedContainer = "container:YetAnotherApp.xcodeproj"
+               BlueprintIdentifier = "9E8C695F1AE6169400D91323">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,4 +29,17 @@
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
+   <TestAction>
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9E8C695F1AE6169400D91323"
+               BuildableName = "Acceptance Tests.xctest"
+               BlueprintName = "Acceptance Tests"
+               ReferencedContainer = "container:YetAnotherApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
 </Scheme>

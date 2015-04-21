@@ -1,9 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Acceptance Tests" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="YetAnotherApp" TARGET_NAME="Acceptance Tests" CONFIG_NAME="Debug" SCHEME_NAME="Acceptance Tests" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+  <configuration default="false" name="Acceptance Tests" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="YetAnotherApp" TARGET_NAME="Acceptance Tests" SCHEME_NAME="Acceptance Tests" TEST_MODE="SUITE_TEST" XCODE_SKIPPED_TESTS_HASH_CODE="0">
     <envs />
-    <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
-      <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
-    </EXTENSION>
     <method />
   </configuration>
 </component>
