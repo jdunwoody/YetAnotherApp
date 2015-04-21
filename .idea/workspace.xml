@@ -18,7 +18,7 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
   <component name="FavoritesManager">
     <favorites_list name="YetAnotherApp" />
   </component>
@@ -76,11 +76,32 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/YetAnotherApp.xcodeproj" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager">
-    <list size="0" />
+  <component name="RunManager" selected="Application.YetAnotherApp">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="YetAnotherApp" TARGET_NAME="YetAnotherApp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="YetAnotherApp" RUN_TARGET_NAME="YetAnotherApp" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="YetAnotherApp" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="YetAnotherApp" TARGET_NAME="YetAnotherApp" CONFIG_NAME="Debug" SCHEME_NAME="YetAnotherApp" RUN_TARGET_PROJECT_NAME="YetAnotherApp" RUN_TARGET_NAME="YetAnotherApp" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.YetAnotherApp" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7fc5eacf-3912-4860-b331-b8ee4a12e012" name="Default" comment="" />
