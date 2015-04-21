@@ -2,7 +2,7 @@
 # platform :ios, '6.0'
 
 target 'YetAnotherApp' do
-
+  pod 'AFNetworking'
 end
 
 target 'YetAnotherAppTests' do

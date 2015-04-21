@@ -11,9 +11,9 @@
 
 SpecBegin(App)
 
-describe(@"Tab controller", ^{
+describe(@"Main view controller", ^{
     
-    it(@"should show second view when I tap on the second tab", ^{
+    it(@"should show second view when I tap on the button", ^{
         [tester tapViewWithAccessibilityLabel:@"Second" traits:UIAccessibilityTraitButton];
         [tester waitForViewWithAccessibilityLabel:@"Second View"];
     });

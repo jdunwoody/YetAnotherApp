@@ -1,4 +1,25 @@
 PODS:
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection (= 2.5.3)
+    - AFNetworking/NSURLSession (= 2.5.3)
+    - AFNetworking/Reachability (= 2.5.3)
+    - AFNetworking/Security (= 2.5.3)
+    - AFNetworking/Serialization (= 2.5.3)
+    - AFNetworking/UIKit (= 2.5.3)
+  - AFNetworking/NSURLConnection (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - Expecta (0.4.2)
   - KIF (3.2.1):
     - KIF/XCTest (= 3.2.1)
@@ -11,6 +32,7 @@ PODS:
   - Specta (0.5.0)
 
 DEPENDENCIES:
+  - AFNetworking
   - Expecta (~> 0.3)
   - KIF (~> 3.0)
   - LRMocky (~> 0.9)
@@ -20,6 +42,7 @@ DEPENDENCIES:
   - Specta (~> 0.5)
 
 SPEC CHECKSUMS:
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
   Expecta: 78b4e8b0c8291fa4524d7f74016b6065c2e391ec
   KIF: ef1691e54e1d969c3b4fd0b5b56a3d7ddf37f216
   LRMocky: d7d375672d4cf279d3f0dd221ffe8b6d6c78a7b5
