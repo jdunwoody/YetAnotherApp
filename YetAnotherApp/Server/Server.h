@@ -7,5 +7,7 @@
 
 
 @interface Server : NSObject
+
 - (void)lookup;
+
 @end

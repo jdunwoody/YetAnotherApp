@@ -15,7 +15,6 @@
 		914CB561C98014BC36A1228A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914CB9802BBA175BD60D9792 /* Images.xcassets */; };
 		914CB609C5DA4F3B9B0F09BD /* TemperatureLookupService.m in Sources */ = {isa = PBXBuildFile; fileRef = 914CB20B6E08ABF9B8641F37 /* TemperatureLookupService.m */; };
 		914CB6B25C32F5B5ACC34F66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914CB863933E657BA2C2810D /* ViewController.m */; };
-		914CB831F230A8CC1E8DC705 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 914CB083D9C7BBFA6825CA34 /* Server.m */; };
 		914CBCB019020ECF434C9DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 914CB975A8E51964FF790635 /* AppDelegate.m */; };
 		914CBFACDBA26E581A07FD64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 914CB4D826771EFD2CE05A98 /* LaunchScreen.xib */; };
 		914CBFD199204AE7607DC5C2 /* YetAnotherApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 914CB86478DC506538D830F6 /* YetAnotherApp.xcdatamodeld */; };
@@ -23,6 +22,7 @@
 		9E8C69721AE61B7200D91323 /* YAAFirstAcceptanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C696D1AE61AE800D91323 /* YAAFirstAcceptanceTest.m */; };
 		9E8C69761AE6231100D91323 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C69751AE6231100D91323 /* Weather.m */; };
 		9E8C69791AE623EB00D91323 /* WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C69781AE623EB00D91323 /* WeatherTests.m */; };
+		9E8C697D1AE628CB00D91323 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C697C1AE628CB00D91323 /* Server.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,6 @@
 		23F5A14A6415F2DE4584BB2D /* Pods-YetAnotherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YetAnotherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-YetAnotherApp/Pods-YetAnotherApp.release.xcconfig"; sourceTree = "<group>"; };
 		2E9F93DD379F9FBC9F610599 /* Pods-YetAnotherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YetAnotherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YetAnotherApp/Pods-YetAnotherApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4F27B89A7CFF1811B75CF86B /* Pods-Acceptance Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		914CB083D9C7BBFA6825CA34 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Server.m; path = Server/Server.m; sourceTree = "<group>"; };
 		914CB20B6E08ABF9B8641F37 /* TemperatureLookupService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemperatureLookupService.m; path = YetAnotherApp/TemperatureService/TemperatureLookupService.m; sourceTree = SOURCE_ROOT; };
 		914CB2B6AE11892025C87AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		914CB37E94B2FC1071E7B983 /* YetAnotherApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YetAnotherApp.xcdatamodel; sourceTree = "<group>"; };
@@ -62,7 +61,6 @@
 		914CBD00FD60EA9774276FA4 /* YetAnotherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YetAnotherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		914CBD165B465D8F4DCDFFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		914CBD3F4FD1B82139804088 /* YetAnotherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YetAnotherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		914CBDB9517A39C8120BE852 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Server.h; path = Server/Server.h; sourceTree = "<group>"; };
 		914CBDE837605CA767901941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		914CBE2CBD308552802FDF3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9E8C69601AE6169400D91323 /* Acceptance Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acceptance Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +70,8 @@
 		9E8C69741AE6231100D91323 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
 		9E8C69751AE6231100D91323 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
 		9E8C69781AE623EB00D91323 /* WeatherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherTests.m; sourceTree = "<group>"; };
+		9E8C697B1AE628CB00D91323 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		9E8C697C1AE628CB00D91323 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
 		AA38F616F394D459620F41C2 /* Pods-Acceptance Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B5FD03730B6E5899707ACF36 /* libPods-YetAnotherAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YetAnotherAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E321C2D1F59C82A5FA689E15 /* libPods-YetAnotherApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YetAnotherApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +137,7 @@
 		914CB32FB9349177F0542DC2 /* YetAnotherApp */ = {
 			isa = PBXGroup;
 			children = (
+				9E8C697A1AE628CB00D91323 /* Server */,
 				9E8C69731AE6231100D91323 /* Weather */,
 				914CB8E45BB84FD1EFFFB6AF /* Supporting Files */,
 				914CB9802BBA175BD60D9792 /* Images.xcassets */,
@@ -147,8 +148,6 @@
 				914CB2078B794FCCF71491B8 /* Main.storyboard */,
 				914CBE2CBD308552802FDF3B /* ViewController.h */,
 				914CB863933E657BA2C2810D /* ViewController.m */,
-				914CB083D9C7BBFA6825CA34 /* Server.m */,
-				914CBDB9517A39C8120BE852 /* Server.h */,
 			);
 			path = YetAnotherApp;
 			sourceTree = "<group>";
@@ -247,6 +246,15 @@
 				9E8C69781AE623EB00D91323 /* WeatherTests.m */,
 			);
 			path = Weather;
+			sourceTree = "<group>";
+		};
+		9E8C697A1AE628CB00D91323 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				9E8C697B1AE628CB00D91323 /* Server.h */,
+				9E8C697C1AE628CB00D91323 /* Server.m */,
+			);
+			path = Server;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -475,7 +483,7 @@
 				914CB6B25C32F5B5ACC34F66 /* ViewController.m in Sources */,
 				9E8C69761AE6231100D91323 /* Weather.m in Sources */,
 				914CB609C5DA4F3B9B0F09BD /* TemperatureLookupService.m in Sources */,
-				914CB831F230A8CC1E8DC705 /* Server.m in Sources */,
+				9E8C697D1AE628CB00D91323 /* Server.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
