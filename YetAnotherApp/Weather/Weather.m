@@ -20,7 +20,7 @@
         return self;
     }
 
-    _cityName = cityName;
+    _cityName = [cityName capitalizedString];
 
     return self;
 }

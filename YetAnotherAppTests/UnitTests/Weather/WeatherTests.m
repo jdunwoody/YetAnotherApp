@@ -55,7 +55,7 @@ SpecBegin(Weather)
             });
         });
 
-        itShouldBehaveLike(@"a shared behavior", @{@"key" : @"obj"});
+//        itShouldBehaveLike(@"a shared behavior", @{@"key" : @"obj"});
 
         itShouldBehaveLike(@"another shared behavior", ^{
             // Use a block that returns a dictionary if you need the context to be evaluated lazily,
